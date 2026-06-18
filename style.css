@@ -83,3 +83,44 @@ textarea::placeholder {
 
     margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+  .box {
+    max-width: 90%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+
+  .input-container input {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .submit-btn {
+    margin-top: 16px;
+    padding: 12px;
+  }
+}
