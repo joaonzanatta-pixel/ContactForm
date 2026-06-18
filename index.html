@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <section class="box">
+            <h1>Contact Form</h1>
+            <p>Contact us to support our website</p>
+            <div class="container">
+                <form id="form">
+                    <div class="form-row">
+                        <div class="input-container">
+                            <i class="fa fa-user icone"></i>
+                            <input id="nome" type="text" placeholder="Nome" required/>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-envelope icone"></i>
+                            <input id="email" type="email" placeholder="Email" required />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-container">
+                            <i class="fa-solid fa-phone icone"></i>
+                            <input id="fone" type="text" placeholder="Phone" />
+                        </div>
+                        <div class="input-container">
+                            <i class="fa-solid fa-comment icone"></i>
+                            <input id="assunto" type="text" placeholder="Assunto" required/>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-solid  fa-pen-to-square icone"></i>
+                        <textarea id="mensagem" placeholder="Your massage" required></textarea>
+                    </div>
+                    <button class="submit-btn" type="submit">Submit</button>
+                </form>
+
+            </div>
+        </section>
+
+        <script src="index.js"></script>
+    </main>
+</body>
+
+</html>
